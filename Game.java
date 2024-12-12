@@ -14,7 +14,12 @@ public class Game {
         System.out.println(d.me);//Diceクラスのmeフィールドを表示
     }
     void judge(Player p){
-            
+            if(d.me == 6){
+                System.out.println("Win");
+            }
+            else{
+                System.out.println("Lose");
+            }
         }
     
 }
